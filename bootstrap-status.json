@@ -1,0 +1,20 @@
+{
+  "canResume": true,
+  "completedSteps": [
+    "generate",
+    "quality_gate",
+    "build",
+    "browser_verify",
+    "github"
+  ],
+  "createdAt": "2026-06-08T16:24:19Z",
+  "currentStep": "github_pushed",
+  "deployed": false,
+  "failedStep": "vercel",
+  "githubPushed": true,
+  "githubUrl": "https://github.com/vincentbastille10/etiquetteconform-2",
+  "lastRunAt": "2026-06-08T16:24:19Z",
+  "projectName": "etiquetteconform",
+  "status": "github_pushed",
+  "vercelUrl": null
+}
