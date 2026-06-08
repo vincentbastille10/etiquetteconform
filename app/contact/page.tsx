@@ -1,7 +1,8 @@
 import React from 'react';
 
-export default function ContactPage({ searchParams }: { searchParams?: { sent?: string } }) {
-  const sent = searchParams?.sent === "1";
+export default async function ContactPage({ searchParams }: { searchParams?: Promise<{ sent?: string }> }) {
+  const params = await searchParams;
+  const sent = params?.sent === "1";
   return (
     <main>
       <section className="hero">

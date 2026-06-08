@@ -3,23 +3,23 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   metadataBase: new URL('http://localhost:3000'),
-  title: 'EtiquetteConform — EtiquetteConform est une application SaaS destinée aux artis',
-  description: 'EtiquetteConform est une application SaaS destinée aux artisans alimentaires français qui vendent des produits pré-emballés : boulangers, pâtissiers, …',
-  keywords: 'etiquetteconform, application, saas, destinée, artisans, alimentaires, français, vendent',
+  title: "EtiquetteConform — EtiquetteConform est une application SaaS destinée aux artis",
+  description: "EtiquetteConform est une application SaaS destinée aux artisans alimentaires français qui vendent des produits pré-emballés : boulangers, pâtissiers, …",
+  keywords: "etiquetteconform, application, saas, destinée, artisans, alimentaires, français, vendent",
   alternates: { canonical: 'http://localhost:3000' },
   robots: { index: true, follow: true },
   openGraph: {
     type: 'website',
-    title: 'EtiquetteConform — EtiquetteConform est une application SaaS destinée aux artis',
-    description: 'EtiquetteConform est une application SaaS destinée aux artisans alimentaires français qui vendent des produits pré-emballés : boulangers, pâtissiers, …',
+    title: "EtiquetteConform — EtiquetteConform est une application SaaS destinée aux artis",
+    description: "EtiquetteConform est une application SaaS destinée aux artisans alimentaires français qui vendent des produits pré-emballés : boulangers, pâtissiers, …",
     url: 'http://localhost:3000',
-    siteName: 'EtiquetteConform',
+    siteName: "EtiquetteConform",
     locale: 'fr_FR',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'EtiquetteConform — EtiquetteConform est une application SaaS destinée aux artis',
-    description: 'EtiquetteConform est une application SaaS destinée aux artisans alimentaires français qui vendent des produits pré-emballés : boulangers, pâtissiers, …',
+    title: "EtiquetteConform — EtiquetteConform est une application SaaS destinée aux artis",
+    description: "EtiquetteConform est une application SaaS destinée aux artisans alimentaires français qui vendent des produits pré-emballés : boulangers, pâtissiers, …",
   },
 }
 

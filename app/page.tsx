@@ -3,8 +3,8 @@ import React from 'react';
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Product',
-  name: 'EtiquetteConform — EtiquetteConform est une application SaaS destinée aux artis',
-  description: 'EtiquetteConform est une application SaaS destinée aux artisans alimentaires français qui vendent des produits pré-emballés : boulangers, pâtissiers, …',
+  name: "EtiquetteConform — EtiquetteConform est une application SaaS destinée aux artis",
+  description: "EtiquetteConform est une application SaaS destinée aux artisans alimentaires français qui vendent des produits pré-emballés : boulangers, pâtissiers, …",
   url: 'http://localhost:3000',
 };
 
